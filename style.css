@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  margin: 20px auto;
+  border: 2px solid white;
+}
+
+.container div {
+  background-color: black;
+}
+
+#newGridButton {
+  border-radius: 13px;
+  width: 100px;
+  height: 100px;
+  border: 0;
+  background-color: black;
+  color: white;
+  margin: 20px auto;
+  border: 2px solid white;
+  display: block;
+}
