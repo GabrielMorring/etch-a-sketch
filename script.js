@@ -26,7 +26,7 @@ function reset(event) {
   let userResolution = 101;
   while (userResolution > 100) {
     userResolution = prompt(
-      "what resolution would you like your drawingpad to be, it must be less than 101",
+      "what resolution would you like your drawing pad to be, it must be less than 101",
     );
   }
   container.remove();
